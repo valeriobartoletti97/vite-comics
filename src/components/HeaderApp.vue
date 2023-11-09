@@ -1,7 +1,9 @@
 <template>
-  <header>
-    header
-  </header>
+  <div>
+      <header class="container d-flex justify-content-between">
+         <img src="/images/dc-logo.png" alt="logo">
+      </header>
+  </div>
 </template>
 
 <script>
@@ -11,5 +13,10 @@
 </script>
 
 <style lang="scss" scoped>
-
+     header{
+        padding:20px 0;
+        img{
+            width:80px;
+        }
+     }
 </style>
