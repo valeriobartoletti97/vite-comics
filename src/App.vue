@@ -1,19 +1,25 @@
 <template>
   <HeaderApp />
-  <MainApp />
+  <ContentApp />
+  <JumboApp />
+  <MerchApp />
   <FooterApp />
 </template>
 
 <script>
   import HeaderApp from './components/HeaderApp.vue';
-  import MainApp from './components/MainApp.vue';
+  import ContentApp from './components/ContentApp.vue';
   import FooterApp from './components/FooterApp.vue';
+  import MerchApp from './components/MerchApp.vue';
+  import JumboApp from './components/JumboApp.vue';
   export default {
     name:'App',
     components:{
       HeaderApp,
-      MainApp,
+      ContentApp,
       FooterApp,
+      MerchApp,
+      JumboApp,
     },
     data(){
 

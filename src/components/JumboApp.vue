@@ -1,12 +1,12 @@
 <template>
-  <main>
-    main
-  </main>
+    <div>
+
+    </div>
 </template>
 
 <script>
     export default {
-        name: 'MainApp',
+        name:'JumboApp',
     }
 </script>
 

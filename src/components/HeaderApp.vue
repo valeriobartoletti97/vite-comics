@@ -86,7 +86,10 @@
         }
         a{
             text-decoration: none;
-            color:black
+            color:black;
+            &:hover{
+                cursor: pointer;
+            }
         }
         .active-section{
             color: #0282f9;
