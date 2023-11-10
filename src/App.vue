@@ -1,8 +1,10 @@
 <template>
   <HeaderApp />
-  <ContentApp />
-  <JumboApp />
-  <MerchApp />
+  <main>
+    <ContentApp />
+    <JumboApp />
+    <MerchApp />
+  </main>
   <FooterApp />
 </template>
 

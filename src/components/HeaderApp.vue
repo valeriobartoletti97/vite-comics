@@ -75,7 +75,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
      header{
         padding:20px 0;
         img{
@@ -85,11 +85,7 @@
             font-weight: 800;
         }
         a{
-            text-decoration: none;
             color:black;
-            &:hover{
-                cursor: pointer;
-            }
         }
         .active-section{
             color: #0282f9;
