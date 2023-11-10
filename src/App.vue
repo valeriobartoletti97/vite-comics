@@ -2,8 +2,8 @@
   <HeaderApp />
   <main>
     <ContentApp />
-    <JumboApp />
     <MerchApp />
+    <JumboApp />
   </main>
   <FooterApp />
 </template>

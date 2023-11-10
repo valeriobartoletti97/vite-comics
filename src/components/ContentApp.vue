@@ -1,11 +1,9 @@
 <template>
-  <main>
-    <div>
+    <div class="bg-black">
       <section class="container">
         <h1 class="text-white py-5"> {{ title }} </h1>
       </section>
     </div>
-  </main>
 </template>
 
 <script>
@@ -19,8 +17,8 @@
     }
 </script>
 
-<style lang="scss" scoped>
-    div{
+<style lang="scss" >
+    .bg-black{
       background-color:black
     }
     h1{

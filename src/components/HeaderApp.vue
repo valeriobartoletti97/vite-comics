@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <header class="container d-flex justify-content-between">
+  <header>
+      <div class="container d-flex justify-content-between">
          <img src="/images/dc-logo.png" alt="logo">
          <ul class="nav d-flex justify-content-between align-items-center flex-nowrap ">
             <li class="nav-item px-3 text-uppercase" v-for="(element,index) in navSections" :key="index">
@@ -9,8 +9,8 @@
                 </a>
             </li>
          </ul>
-      </header>
-  </div>
+      </div>
+  </header>
 </template>
 
 <script>
@@ -77,7 +77,8 @@
 
 <style lang="scss" >
      header{
-        padding:20px 0;
+        div{
+            padding:20px 0;
         img{
             width:80px;
         }
@@ -89,6 +90,7 @@
         }
         .active-section{
             color: #0282f9;
+        }
         }
      }
 </style>

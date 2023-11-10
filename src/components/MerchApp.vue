@@ -1,11 +1,11 @@
 <template>
     <div class="bg-primary">
         <div class="container">
-            <ul class="nav d-flex justify-content-between align-items-center flex-nowrap ">
+            <ul class="nav d-flex justify-content-between align-items-center flex-nowrap py-5 ">
                 <li class="nav-item px-3 text-uppercase" v-for="(element,index) in merch" :key="index">
                     <div>
                         <img :src="element.img" alt="merch-logo">
-                        <a :class="{'active-section' : element.active=== true}" :href="href">
+                        <a class="px-2" :class="{'active-section' : element.active=== true}" :href="href">
                             {{ element.text }}
                         </a>
                     </div>
@@ -60,6 +60,6 @@
         color:white
     }
     img{
-        width: 70px;
+        width: 50px;
     }
 </style>
